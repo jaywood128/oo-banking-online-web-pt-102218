@@ -23,9 +23,7 @@ class BankAccount
     binding.pry
     if  self.balance > 0 && if self.status = "open"
       true
-    end
+    else
       false
-
-
-  end
+    end
 end
