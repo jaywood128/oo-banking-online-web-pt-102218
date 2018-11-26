@@ -12,6 +12,6 @@ class Transfer
 
   def valid?
     binding.pry
-
+  end
   # your code here
 end
