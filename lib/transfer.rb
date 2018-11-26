@@ -12,7 +12,6 @@ class Transfer
 
   def valid?
     BankAccount.valid?
-    binding.pry
   end
   # your code here
 end
