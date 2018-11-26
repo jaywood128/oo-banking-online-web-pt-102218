@@ -1,6 +1,6 @@
 class Transfer
 
-  attr_accessor :receiver, :sender
+  attr_accessor :receiver, :sender, :status
 
   def initialize(sender, receiver, amount)
     @sender = sender
