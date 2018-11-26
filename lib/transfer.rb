@@ -15,7 +15,7 @@ class Transfer
   end
 
   def execute_transaction
-     sender.balance - amount = sender.balance
+     binding.pry
 
   end
   # your code here
