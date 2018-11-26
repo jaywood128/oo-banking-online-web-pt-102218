@@ -17,6 +17,7 @@ class Transfer
   def execute_transaction
      after_transaction = sender.balance - self.amount
      sender.balance = after_transaction
+     receiver.balance = receiver.balance + self.amount
 
   end
   # your code here
