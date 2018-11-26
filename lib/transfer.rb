@@ -11,7 +11,7 @@ class Transfer
   end
 
   def valid?
-    sender.BankAccount.valid? && receiver.BankAccount.valid?
+    binding.pry
   end
   # your code here
 end
