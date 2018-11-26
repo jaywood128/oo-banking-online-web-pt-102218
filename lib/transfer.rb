@@ -15,10 +15,10 @@ class Transfer
   end
 
   def execute_transaction
-     after_transaction = sender.balance - self.amount
-     sender.balance = after_transaction
-     receiver.balance = receiver.balance + self.amount
-     self.status = "complete"
+
+    sender.balance = sender.balance - self.amount
+    receiver.balance = receiver.balance + self.amount
+    self.status = "complete"
 
   end
   # your code here
