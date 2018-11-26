@@ -24,3 +24,7 @@ class BankAccount
     self.status == "open"
     end
   end
+
+  def close_account
+
+  end
