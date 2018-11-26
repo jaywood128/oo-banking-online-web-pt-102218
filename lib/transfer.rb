@@ -10,5 +10,8 @@ class Transfer
     @amount = 50
   end
 
+  def valid?
+    binding.pry
+
   # your code here
 end
