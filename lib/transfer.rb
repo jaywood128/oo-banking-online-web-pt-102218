@@ -33,6 +33,7 @@ class Transfer
       self.status = "reversed"
     else
       self.status = "rejected"
+    end
 
   end
 end
