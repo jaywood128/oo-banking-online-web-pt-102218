@@ -23,7 +23,6 @@ class Transfer
     sender.valid? == false
       "Transaction rejected. Please check your account balance."
       self.status = "rejected"
-    end
 
   end
   # your code here
