@@ -18,6 +18,7 @@ class Transfer
      after_transaction = sender.balance - self.amount
      sender.balance = after_transaction
      receiver.balance = receiver.balance + self.amount
+     self.status = "complete"
 
   end
   # your code here
